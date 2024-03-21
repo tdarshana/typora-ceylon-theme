@@ -14,6 +14,8 @@ This theme is build from [Typora Vue theme](https://github.com/blinkfox/typora-v
 
 ![img](./img/SCR-20240219-ubxw.png)
 
+1[img](./img/SCR-20240303-kcps.png)
+
 You can install this by downloading this and extracting it to your Typora theme folder. You can follow the official guide [here](https://theme.typora.io/doc/Install-Theme/).
 
 You can support me here [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G2UOIB9)
