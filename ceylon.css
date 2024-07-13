@@ -1,413 +1,12 @@
-@import "tailwind-light.user.css";
+@charset "UTF-8";
 
-/* FONTS */
-
-@font-face {
-  font-family: "Inter";
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
-  src: url("ceylon/Inter-roman.ttf") format("truetype");
-  font-named-instance: "Regular";
-}
-
-@font-face {
-  font-family: "Inter";
-  font-style: italic;
-  font-weight: 100 900;
-  font-display: block;
-  src: url("ceylon/Inter-italic.ttf") format("truetype");
-  font-named-instance: "Italic";
-}
-
-/* Display Font - IBM Plex Sans */
-/* License - SIL Open Font License 1.1 - https://github.com/IBM/plex/blob/master/LICENSE.txt */
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: italic;
-  font-weight: 400;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: normal;
-  font-weight: 700;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: italic;
-  font-weight: 700;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: normal;
-  font-weight: 100;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-Thin.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: italic;
-  font-weight: 100;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-ThinItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: normal;
-  font-weight: 200;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-ExtraLight.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: italic;
-  font-weight: 200;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-ExtraLightItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: normal;
-  font-weight: 300;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: italic;
-  font-weight: 300;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-LightItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: normal;
-  font-weight: 500;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: italic;
-  font-weight: 500;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-MediumItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: normal;
-  font-weight: 600;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexSans';
-  font-style: italic;
-  font-weight: 600;
-  font-display: block;
-  src: url('ceylon/display/IBM-Plex-Sans/IBMPlexSans-SemiBoldItalic.ttf') format('truetype');
-}
-
-/* Monospace Font - IBM Plex Mono */
-/* License - SIL Open Font License 1.1 - https://github.com/IBM/plex/blob/master/LICENSE.txt */
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-Regular.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: italic;
-  font-weight: 400;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-Italic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: normal;
-  font-weight: 700;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-Bold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: italic;
-  font-weight: 700;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-BoldItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: normal;
-  font-weight: 100;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-Thin.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: italic;
-  font-weight: 100;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-ThinItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: normal;
-  font-weight: 200;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-ExtraLight.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: italic;
-  font-weight: 200;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-ExtraLightItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: normal;
-  font-weight: 300;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-Light.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: italic;
-  font-weight: 300;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-LightItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: normal;
-  font-weight: 500;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-Medium.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: italic;
-  font-weight: 500;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-MediumItalic.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: normal;
-  font-weight: 600;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-SemiBold.ttf') format('truetype');
-}
-
-@font-face {
-  font-family: 'IBMPlexMono';
-  font-style: italic;
-  font-weight: 600;
-  font-display: block;
-  src: url('ceylon/monospace/IBMPlexMono/IBMPlexMono-SemiBoldItalic.ttf') format('truetype');
-}
-
-/* Monospace Font - Fira Code */
-
-@font-face {
-  font-family: "FiraCode";
-  font-style: normal;
-  font-weight: 100 900;
-  font-display: block;
-  src: url("ceylon/monospace/FiraCode-vf.ttf") format("truetype");
-  font-named-instance: "Regular";
-}
-
-/* Monospace Font - Fira Mono */
-
-@font-face {
-  font-family: "FiraMono";
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url("ceylon/monospace/FiraMono/FiraMono-Regular.ttf") format("truetype");
-  font-named-instance: "Regular";
-}
-
-@font-face {
-  font-family: "FiraMono";
-  font-style: bold;
-  font-weight: 800;
-  font-display: block;
-  src: url("ceylon/monospace/FiraMono/FiraMono-Bold.ttf") format("truetype");
-  font-named-instance: "Regular";
-}
-
-@font-face {
-  font-family: "FiraMono";
-  font-style: bold;
-  font-weight: 500;
-  font-display: block;
-  src: url("ceylon/monospace/FiraMono/fi-Bold.ttf") format("truetype");
-  font-named-instance: "Regular";
-}
-
-
-/* Display Font - Calibre */
-@font-face {
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 400;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreRegular.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: italic;
-  font-weight: 400;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreRegularItalic.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 700;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreBold.otf') format('openntype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: italic;
-  font-weight: 700;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreBoldItalic.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 100;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreThin.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: italic;
-  font-weight: 100;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreThinItalic.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 300;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreLight.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: italic;
-  font-weight: 300;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreLightItalic.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 500;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreMedium.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: italic;
-  font-weight: 500;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreMediumItalic.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 600;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreSemibold.otf') format('opentype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: italic;
-  font-weight: 600;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreSemiboldItalic.otf') format('opentype');
-}
-
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: normal;
-  font-weight: 900;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreBlack.otf') format('openntype');
-}
-
-@font-face {
-  font-family: 'Calibre';
-  font-style: italic;
-  font-weight: 900;
-  font-display: block;
-  src: url('ceylon/display/calibre/CalibreBlackItalic.otf') format('opentype');
-}
+/*** Custom fonts ***/
+@import url('./ceylon/fonts.css');
 
 /* VARIABLES */
-
 :root {
   --theme-0: #fff;
+  --theme-primary: #076DDD;
 
   --theme-muted: #F6F7F8;
   --theme-border: #EBEDF0;
@@ -429,7 +28,7 @@
   --theme-900: #0f172a;
 
   /* Tailwind variables */
-  --tw-primary: #62bbf3;
+  --tw-primary: #0967f3;
 
   --tw-prose-body: var(--theme-font-general);
   --tw-prose-headings: var(--theme-900);
@@ -482,7 +81,7 @@
   --background: var(--tw-prose-bg);
   --bg-color: var(--tw-prose-bg);
   --text-color: var(--tw-prose-body);
-  --primary-color: var(--tw-primary);
+  --primary-color: var(--theme-primary);
   --md-char-color: var(--theme-400);
   --meta-content-color: var(--theme-500);
   --typora-source-body: var(--theme-800);
@@ -521,8 +120,9 @@
   --rawblock-edit-panel-bd: var(--tw-prose-pre-bg);
   --item-hover-bg-color-inverted: var(--theme-700);
 
-  --monospace: "IBMPlexMono", "FiraCode", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas,
-    "Liberation Mono", "Courier New", monospace;
+  --ui-font-monospace: "IBMPlexMono", "FiraCode", "FiraMono", ui-monospace, SFMono-Regular, Menlo, Monaco, Consolas, monospace;
+
+  --ui-font-display: "IBMPlexSans", "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
 
   /* Custom */
   --footnote: var(--tw-prose-body);
@@ -679,7 +279,7 @@ code,
 kbd,
 samp,
 pre {
-  font-family: var(--monospace);
+  font-family: var(--ui-font-monospace);
   /* 1 */
   font-size: 1em;
   /* 2 */
@@ -801,20 +401,13 @@ textarea {
 /* TAILWIND PROSE IMPLEMENTATION */
 
 #write {
-  /* font-size: 1.25rem;
-  line-height: 1.8; */
-
   font-size: 1.12rem;
-  /* 16px */
-  ;
   line-height: 1.5;
 }
 
 html,
 body {
-  /* font-family: "Inter"; */
-  font-family: "IBMPlexSans";
-  /*font-family: "Calibre";*/
+  font-family: var(--ui-font-display);
 }
 
 /* on Windows/Linux, it is the part that is not titlebar or status bar. */
@@ -828,7 +421,7 @@ titlebar {
   padding-bottom: 60px;
   color: var(--tw-prose-body);
   /*Custom width*/
-  max-width: 84ch;
+  max-width: 92ch;
   /*Default width*/
   /*max-width: 60ch;*/
 }
@@ -888,14 +481,79 @@ h4::before,
 h5::before,
 h6::before {
   content: '';
-  /* Required content property for pseudo-elements */
   position: absolute;
   left: 0;
-  top: 50%;
-  transform: translateY(-50%);
-  height: 100%;
-  width: 2px;
-  /* Width of the bar */
+  width: 3px;
+  top: 2px;
+  bottom: 2px;
+  height: calc(100% - 4px);
+}
+
+h1:hover::before,
+h1.md-focus::before {
+  content: 'H1';
+  border-color: var(--h1-ind-color);
+}
+
+h2:hover::before,
+h2.md-focus::before {
+  content: 'H2';
+  border-color: var(--h2-ind-color);
+}
+
+h3:hover::before,
+h3.md-focus::before {
+  content: 'H3';
+  border-color: var(--h3-ind-color);
+}
+
+h4:hover::before,
+h4.md-focus::before {
+  content: 'H4';
+  border-color: var(--h4-ind-color);
+}
+
+h5:hover::before,
+h5.md-focus::before {
+  content: 'H5';
+  border-color: var(--h5-ind-color);
+}
+
+h6:hover::before,
+h6.md-focus::before {
+  content: 'H6';
+  border-color: var(--h6-ind-color);
+}
+
+h1:hover::before,
+h2:hover::before,
+h3:hover::before,
+h4:hover::before,
+h5:hover::before,
+h6:hover::before,
+h1.md-focus::before,
+h2.md-focus::before,
+h3.md-focus::before, 
+h4.md-focus::before, 
+h5.md-focus::before, 
+h6.md-focus::before {
+  border-width: 0;
+  border-radius: 0;
+  left: 0;
+  background-color: var(--background);
+  width: 26px;
+  left: -23px;
+  font-size: 10px;
+  color: var(--theme-400);;
+  margin: 0 auto;
+  border-right-width: 5px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  line-height: normal;
+  padding: 0;
+  top: 2px;
+  bottom: 2px;
 }
 
 /* headings */
@@ -1434,9 +1092,17 @@ g[data-mml-node="merror"]>g {
 
 .md-fences>.code-tooltip {
   height: 1.8rem;
-  bottom: -1.8rem;
-  font-size: 0.9rem;
-  border-radius: 0 0 0.5rem 0.5rem;
+  top: 0.4rem;
+  right: 0.4rem;
+  font-size: 0.8rem;
+  border-radius: 0.5rem;
+  padding-left: 0 !important;
+  padding-right: 0 !important;
+  background-color: var(--theme-600);
+}
+
+.md-fences:hover>.code-tooltip {
+  background-color: var(--theme-700);
 }
 
 .code-tooltip .ty-input {
@@ -1615,7 +1281,7 @@ code {
   color: var(--inline-code-font-color);
   font-weight: normal;
   font-size: var(--inline-code-font-size);
-  font-family: var(--monospace);
+  font-family: var(--ui-font-monospace);
   padding: .2rem .2rem;
   border-radius: 3px;
   background: #f5f7f9 !important;
@@ -1695,7 +1361,7 @@ mark {
 }
 
 #typora-source {
-  font-family: var(--monospace);
+  font-family: var(--ui-font-monospace);
   color: var(--typora-source-body);
 }
 
@@ -1811,4 +1477,256 @@ mark {
 
 .btn-default {
   background-color: var(--button-bg);
+}
+
+
+/*sidebar file-list and search results*/
+
+#file-library-list[data-state="complete"] #sidebar-loading-template {
+  padding: 0rem;
+}
+
+#typora-sidebar .file-list-item,
+.ty-search-item {
+  border: none;
+  padding: 1rem;
+}
+
+body.html-for-mac #typora-sidebar .file-list-item,
+body.html-for-mac .ty-search-item {
+  transition-duration: 0.3s !important;
+  transition-property: background-color, border, color, height !important;
+}
+
+#typora-sidebar .file-list-item:hover,
+.ty-search-item:hover {
+  background: var(--borders);
+}
+
+#typora-sidebar .ty-search-item-line {
+  font-family: var(--font-family);
+  font-size: 0.8rem;
+  font-weight: 400;
+  padding: 0.3rem;
+  border-radius: 0.3rem;
+  margin-left: 24px;
+}
+
+body.o #typora-sidebar .ty-search-item-line {
+  transition-duration: 0.2s;
+}
+
+#typora-sidebar .ty-search-item-line * {
+  opacity: 1;
+}
+
+#typora-sidebar .ty-search-item .ty-search-item-line:hover,
+#typora-sidebar .ty-search-item-line.active {
+  background-color: var(--select-text-bg-color);
+  color: white;
+} /* makes easier identifying which searched item is active in the sidebar */
+
+#typora-sidebar .file-list-item-file-name {
+  font-weight: 800;
+  font-size: 0.9rem;
+  margin-bottom: 0rem;
+  line-height: 1.8rem;
+  float: right;
+}
+
+#typora-sidebar .file-list-item-file-ext-part {
+  font-weight: 800;
+  opacity: 0.5;
+}
+
+#typora-sidebar .file-list-item-parent-loc,
+#typora-sidebar .file-list-item-time {
+  font-family: var(--font-family);
+  font-weight: 400;
+  opacity: 0.5;
+  display: block;
+}
+
+#typora-sidebar .file-list-item-summary {
+  float: left;
+  font-size: 0.8rem;
+  opacity: 0.9;
+}
+
+#typora-sidebar .file-list-item-count {
+  font-size: 0.75rem;
+  background-color: var(--primary-color);
+  color: white;
+  border-radius: 0.2rem;
+  min-width: 1.25rem;
+  height: 1.25rem;
+  text-align: center;
+  line-height: 1.25rem;
+  position: relative;
+  top: 0.3rem;
+}
+
+#typora-sidebar input.file-list-item-file-name {
+  margin: 0.5rem 0rem 0.5rem 0.7rem;
+  padding: 0.4rem !important;
+  line-height: 1rem;
+  float: right;
+  border-radius: 0.3rem;
+  font-weight: 500;
+  background-color: var(--background) !important;
+}
+
+#typora-sidebar .file-list-item.file-library-file-node {
+  border: none;
+}
+
+#typora-sidebar .file-tree-node.active .file-node-background,
+#typora-sidebar .file-list-item.active,
+#typora-sidebar .ty-search-item.active {
+  background-color: var(--background);
+  outline: 1px solid var(--borders);
+  border-right: none;
+  border-top: none;
+  border-bottom: none;
+  border-left: 3px solid var(--primary-color);
+  color: var(--primary-color) !important;
+  font-weight: 500;
+}
+
+#typora-sidebar .file-tree-node.active .file-node-content {
+  color: var(--primary-color) !important;
+  font-weight: 500;
+}
+
+#typora-sidebar .file-tree-node {
+  padding: 0rem;
+  font-weight: 400;
+  font-size: 1rem;
+  margin-left: 0.8rem;
+}
+
+#typora-sidebar .file-tree-node .file-node-content {
+  padding: 0rem;
+  line-height: 2.2rem;
+  height: 2.2rem;
+  background: none;
+  margin-bottom: 0px;
+}
+
+#typora-sidebar .file-tree-node .file-node-background {
+  padding: 0rem;
+  height: 2.2rem;
+}
+
+#typora-sidebar .file-tree-node .file-node-icon {
+  margin-right: 0.5rem;
+}
+
+#typora-sidebar .file-tree-node .file-node-icon.fa-file-text-o {
+  margin-top: 0.33rem;
+}
+
+#typora-sidebar .file-tree-node .file-node-icon.fa-folder {
+  margin-top: 0.36rem;
+}
+
+#typora-sidebar .file-tree-node .fa-caret-down,
+#typora-sidebar .file-tree-node .fa-caret-right {
+  position: relative;
+  top: 5px;
+}
+
+#typora-sidebar .file-tree-node .file-tree-rename-input {
+  height: 2.2rem;
+  background: none;
+  border: none;
+  font-weight: 400;
+  margin: 0rem;
+  padding-left: 0rem;
+}
+
+#typora-sidebar .ty-search-item-collapse-icon {
+  top: 9px;
+}
+
+/*no left border*/
+#typora-sidebar .file-tree-node.active > .file-node-background {
+  border: none;
+}
+
+/*no dotted highlighting*/
+.file-library-node:not(.file-node-root):focus > .file-node-content {
+  outline: none;
+}
+
+#typora-sidebar #sidebar-files-menu {
+  border: solid 1px var(--borders);
+  border-radius: 0.3rem;
+  box-shadow: rgba(116, 129, 141, 0.1) 0px 3px 8px 0px;
+}
+
+#typora-sidebar #ty-sidebar-footer {
+  background-color: var(--bg-color);
+  border-top: solid 1px var(--borders);
+  font-weight: 500;
+}
+
+#typora-sidebar #ty-sidebar-footer li {
+  transition-duration: 0.2s;
+  transition-property: background-color, color;
+}
+
+#typora-sidebar
+  #ty-sidebar-footer
+  li:not(.file-sort-item):not(:first-child):not(.empty-menu-group):not(.folder-menu-group):hover {
+  color: var(--primary-color);
+  background-color: var(--boxes);
+}
+
+#typora-sidebar
+  #ty-sidebar-footer
+  .file-action-item.file-sort-item
+  > span:first-of-type {
+  line-height: 2rem;
+}
+
+/* Folder + File Icons */
+
+/* Hide the original Font Awesome icon */
+#typora-sidebar .file-tree-node .file-node-icon {
+  font-size: 0; /* Hide the text/icon inside the <i> tag */
+  width: 16px; /* Set a fixed width */
+  height: 16px; /* Set a fixed height */
+  background-size: contain; /* Ensure the SVG scales correctly */
+  background-repeat: no-repeat; /* Prevent repeating */
+  display: inline-block; /* Maintain the element's block nature */
+}
+
+#typora-sidebar .file-tree-node .file-node-icon.fa-folder {
+  background-image: url('./ceylon/icons/dualtone-folder-closed.svg');
+  margin-top: 0.5rem;
+}
+
+/* Specific styling for the collapsed folder icon SVG */
+#typora-sidebar .file-tree-node.file-node-collapsed > .file-node-content > .file-node-icon.fa-folder {
+  background-image: url('./ceylon/icons/dualtone-folder-closed.svg');
+  margin-top: 0.5rem;
+}
+
+/* Specific styling for the expanded folder icon SVG */
+#typora-sidebar .file-tree-node.file-node-expanded > .file-node-content > .file-node-icon.fa-folder {
+  background-image: url('./ceylon/icons/dualtone-folder-open.svg');
+  margin-top: 0.5rem;
+}
+
+/* Specific styling for the file icon SVG */
+#typora-sidebar .file-tree-node > .file-node-content > .file-node-icon.fa-file-text-o {
+  background-image: url('./ceylon/icons/dualtone-file.svg');
+  margin-top: 0.5rem;
+}
+
+/* Specific styling for the active file icon SVG */
+#typora-sidebar .file-tree-node.active > .file-node-content > .file-node-icon.fa-file-text-o {
+  background-image: url('./ceylon/icons/dualtone-file-selected.svg');
+  margin-top: 0.5rem;
 }

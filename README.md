@@ -4,17 +4,18 @@ The following will demonstrate how this theme looks like in a MacOs os in Retina
 
 This theme is build from [Typora Vue theme](https://github.com/blinkfox/typora-vue-theme) and some looks from Obsidean Editor.
 
-![img](./img/SCR-20240219-ubhu.png)
+![img](./img/SCR-20240713-oluo.png)
 
-![img](./img/SCR-20240219-ubss.png)
+![img](./img/SCR-20240713-olvw.png)
 
-![img](./img/SCR-20240219-ubul.png)
+![img](./img/SCR-20240713-olxc.png)
 
-![img](./img/SCR-20240219-ubwx.png)
+---
+![img](./img/SCR-20240713-olpx.png)
 
-![img](./img/SCR-20240219-ubxw.png)
+![img](./img/SCR-20240713-olrj.png)
 
-![img](./img/SCR-20240303-kcps.png)
+![img](./img/SCR-20240713-olsr.png)
 
 You can install this by downloading this and extracting it to your Typora theme folder. You can follow the official guide [here](https://theme.typora.io/doc/Install-Theme/).
 

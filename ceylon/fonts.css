@@ -1,0 +1,305 @@
+/* FONTS */
+
+/* Display Fonts */
+@font-face {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("Inter-roman.ttf") format("truetype");
+  font-named-instance: "Regular";
+}
+
+@font-face {
+  font-family: "Inter";
+  font-style: italic;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("Inter-italic.ttf") format("truetype");
+  font-named-instance: "Italic";
+}
+
+/* Display Font - IBM Plex Sans */
+/* License - SIL Open Font License 1.1 - https://github.com/IBM/plex/blob/master/LICENSE.txt */
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: italic;
+  font-weight: 400;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: italic;
+  font-weight: 700;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-BoldItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 100;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: italic;
+  font-weight: 100;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-ThinItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 200;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-ExtraLight.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: italic;
+  font-weight: 200;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-ExtraLightItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: italic;
+  font-weight: 300;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-LightItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: italic;
+  font-weight: 500;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-MediumItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexSans";
+  font-style: italic;
+  font-weight: 600;
+  font-display: block;
+  src: url("./display/IBM-Plex-Sans/IBMPlexSans-SemiBoldItalic.ttf")
+    format("truetype");
+}
+
+/* Monospace Font - IBM Plex Mono */
+/* License - SIL Open Font License 1.1 - https://github.com/IBM/plex/blob/master/LICENSE.txt */
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-Regular.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: italic;
+  font-weight: 400;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: normal;
+  font-weight: 700;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-Bold.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: italic;
+  font-weight: 700;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-BoldItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: normal;
+  font-weight: 100;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-Thin.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: italic;
+  font-weight: 100;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-ThinItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: normal;
+  font-weight: 200;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-ExtraLight.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: italic;
+  font-weight: 200;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-ExtraLightItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: normal;
+  font-weight: 300;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-Light.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: italic;
+  font-weight: 300;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-LightItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: normal;
+  font-weight: 500;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-Medium.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: italic;
+  font-weight: 500;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-MediumItalic.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: normal;
+  font-weight: 600;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-SemiBold.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "IBMPlexMono";
+  font-style: italic;
+  font-weight: 600;
+  font-display: block;
+  src: url("./monospace/IBMPlexMono/IBMPlexMono-SemiBoldItalic.ttf")
+    format("truetype");
+}
+
+/* Monospace Font - Fira Code */
+
+@font-face {
+  font-family: "FiraCode";
+  font-style: normal;
+  font-weight: 100 900;
+  font-display: block;
+  src: url("././monospace/FiraCode-vf.ttf") format("truetype");
+  font-named-instance: "Regular";
+}
+
+/* Monospace Font - Fira Mono */
+
+@font-face {
+  font-family: "FiraMono";
+  font-style: normal;
+  font-weight: 400;
+  font-display: block;
+  src: url("./monospace/FiraMono/FiraMono-Regular.ttf") format("truetype");
+  font-named-instance: "Regular";
+}
+
+@font-face {
+  font-family: "FiraMono";
+  font-style: bold;
+  font-weight: 800;
+  font-display: block;
+  src: url("./monospace/FiraMono/FiraMono-Bold.ttf") format("truetype");
+  font-named-instance: "Regular";
+}
+
+@font-face {
+  font-family: "FiraMono";
+  font-style: bold;
+  font-weight: 500;
+  font-display: block;
+  src: url("./monospace/FiraMono/fi-Bold.ttf") format("truetype");
+  font-named-instance: "Regular";
+}
