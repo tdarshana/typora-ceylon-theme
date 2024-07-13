@@ -1063,12 +1063,15 @@ g[data-mml-node="merror"]>g {
   * see http://support.typora.io/Code-Block-Styles
   */
 
+
+
 :root {
   --cf-bg-color: #23272E;
+  --cf-font-color: #F8F8F2;
 }
 
 .md-fences {
-  color: var(--tw-prose-pre-code);
+  color: var(--cf-font-color);
   background-color: var(--cf-bg-color);
   font-weight: 400;
   font-size: var(--code-blocks-font-size);
@@ -1127,42 +1130,10 @@ pre code::after {
 /* SYNTAX HIGHLIGHTING */
 
 :root {
-  /* --code-neutral:  rgb(126, 132, 142);
-  --code-cursor: var(--theme-900);
-  --code-string: rgb(152, 195, 121);
-  --code-number: rgb(209, 154, 102);
-  --code-tag: rgb(198, 120, 221);
-  --code-variable: rgb(97, 175, 239);
-  --code-operator: var(--theme-600);
-  --code-comment: rgb(126, 132, 142);
-  --code-bracket: rgb(171, 178, 191);
-  --code-citation: var(--theme-500);
-
-  --code-neutral-inverted: var(--theme-100);
-  --code-cursor-inverted: var(--theme-50);
-  --code-string-inverted: #7dd4fc;
-  --code-number-inverted: #fde68a;
-  --code-tag-inverted: #f472b5;
-  --code-variable-inverted: var(--theme-200);
-  --code-operator-inverted: var(--theme-400);
-  --code-comment-inverted: var(--theme-400);
-  --code-bracket-inverted: var(--theme-500);
-  --code-citation-inverted: var(--theme-400); */
-
   --code-gutter: #495162;
 }
 
 #write .cm-s-inner {
-  /* --code-neutral: var(--code-neutral);
-  --code-cursor: var(--code-cursor-inverted);
-  --code-string: var(--code-string);
-  --code-number: var(--code-number);
-  --code-tag: var(--code-tag);
-  --code-variable: var(--code-variable);
-  --code-operator: var(--code-operator-inverted);
-  --code-comment: var(--code-comment);
-  --code-bracket: var(--code-bracket);
-  --code-citation: var(--code-citation); */
 
   --code-neutral: rgb(126, 132, 142);
   --code-cursor: var(--theme-50);

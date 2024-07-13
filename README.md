@@ -6,24 +6,21 @@ This theme is build from [Typora Vue theme](https://github.com/blinkfox/typora-v
 
 ## Ceylon Light Theme
 
+![img](./img/SCR-20240713-olpx.png)
+
+## Ceylon Dark Theme
+
+![img](./img/SCR-20240713-prpk.png)
+
+## Showcase
+
 ![img](./img/SCR-20240713-oluo.png)
 
 ![img](./img/SCR-20240713-olvw.png)
 
 ![img](./img/SCR-20240713-olxc.png)
 
----
-![img](./img/SCR-20240713-olpx.png)
-
-![img](./img/SCR-20240713-olrj.png)
-
-![img](./img/SCR-20240713-olsr.png)
-
----
-
-## Ceylon Dark Theme
-
-![img](./img/SCR-20240713-prpk.png)
+--
 
 You can install this by downloading this repo or the release and extracting it to your Typora theme folder. You can follow the official guide [here](https://theme.typora.io/doc/Install-Theme/).
 
