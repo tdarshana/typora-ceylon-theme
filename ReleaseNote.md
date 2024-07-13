@@ -20,3 +20,9 @@
 - Dark theme
 - TOC Change styles
 - Heading spacing
+
+## Version 1.2.0
+
+### New Features
+
+- Ceylon Darker theme added
