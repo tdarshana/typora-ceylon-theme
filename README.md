@@ -23,7 +23,7 @@ This theme is build from [Typora Vue theme](https://github.com/blinkfox/typora-v
 
 ## Ceylon Dark Theme
 
-![img](./img/SCR-20240713-olsr.png)
+![img](./img/SCR-20240713-prpk.png)
 
 You can install this by downloading this repo or the release and extracting it to your Typora theme folder. You can follow the official guide [here](https://theme.typora.io/doc/Install-Theme/).
 
