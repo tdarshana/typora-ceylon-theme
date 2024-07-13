@@ -5,36 +5,36 @@
 
 /* VARIABLES */
 :root {
-  --theme-0: #fff;
-  --theme-primary: #076DDD;
+  --theme-0: #282C34;
+  --theme-primary: #4592e4;
 
-  --theme-muted: #F6F7F8;
-  --theme-border: #EBEDF0;
-  --theme-muted-blue: #d4e7fd;
+  --theme-muted: #22252B;
+  --theme-border: #334155;
+  --theme-muted-blue: #4f565f;
 
-  --theme-link: #076DDD;
-  --theme-font-general: #171E27;
+  --theme-link: #4592e4;
+  --theme-font-general: #ABB2BF;
 
   /* Slate grayscale */
-  --theme-50: #f8fafc;
-  --theme-100: #f1f5f9;
-  --theme-200: #e2e8f0;
-  --theme-300: #cbd5e1;
-  --theme-400: #94a3b8;
-  --theme-500: #64748b;
-  --theme-600: #475569;
-  --theme-700: #334155;
-  --theme-800: #1e293b;
-  --theme-900: #0f172a;
+  --theme-50: #0f172a; 
+  --theme-100: #1e293b;
+  --theme-200: #334155;
+  --theme-300: #475569;
+  --theme-400: #64748b;
+  --theme-500: #94a3b8;
+  --theme-600: #cbd5e1;
+  --theme-700: #e2e8f0;
+  --theme-800: #f1f5f9;
+  --theme-900: #f8fafc;
 
   /* Tailwind variables */
-  --tw-primary: #0967f3;
+  --tw-primary: #4592e4;
 
   --tw-prose-body: var(--theme-font-general);
-  --tw-prose-headings: var(--theme-900);
+  --tw-prose-headings: var(--theme-600);
   --tw-prose-lead: var(--theme-600);
   --tw-prose-links: var(--theme-link);
-  --tw-prose-bold: var(--theme-900);
+  --tw-prose-bold: var(--theme-600);
   --tw-prose-counters: var(--theme-500);
   --tw-prose-bullets: var(--theme-500);
   --tw-prose-hr: var(--theme-200);
@@ -48,7 +48,7 @@
   --tw-prose-td-borders: var(--theme-200);
   --tw-prose-bg: var(--theme-0);
   --tw-prose-meta: var(--theme-500);
-  --tw-prose-meta-bg: var(--theme-100);
+  --tw-prose-meta-bg: var(--theme-muted);
 
   --tw-prose-invert-body: var(--theme-300);
   --tw-prose-invert-headings: var(--theme-0);
@@ -95,7 +95,7 @@
   --mermaid-theme-inverted: dark;
   --active-toggle-btn-color-inverted: var(--theme-400);
 
-  /* Sidebar */
+  /* hbar */
   /* --side-bar-bg-color: var(--tw-prose-bg); */
   --side-bar-bg-color: var(--theme-muted);
   --active-file-bg-color: var(--theme-100);
@@ -152,7 +152,7 @@
   --code-blocks-font-size: 0.86em;
   --inline-code-font-size: 0.86em;
 
-  --inline-code-font-color: #876CE0;
+  --inline-code-font-color: #b099fc;
 }
 
 .ty-file-search-match-text {
@@ -651,6 +651,7 @@ h5 strong {
 
 h6::before {
   background-color: var(--h6-ind-color);
+  /* Color of the bar */
 }
 
 h2 code {
@@ -756,8 +757,6 @@ table tr:last-child td {
 }
 
 /* table end */
-
-
 
 .md-grid-board tr[row="1"] {
   background-color: var(--md-grid-header);
@@ -1279,23 +1278,13 @@ code {
   font-family: var(--ui-font-monospace);
   padding: .2rem .2rem;
   border-radius: 3px;
-  background: #f5f7f9 !important;
+  background: var(--theme-muted) !important;
   display: inline;
   vertical-align: bottom;
   line-height: inherit;
   -webkit-font-smoothing: initial;
   -moz-osx-font-smoothing: initial;
 }
-
-
-
-/* code::before {
-  content: "`";
-}
-
-code::after {
-  content: "`";
-} */
 
 [md-inline="code"].md-expand>code::before,
 [md-inline="code"].md-expand>code::after {
@@ -1698,30 +1687,30 @@ body.o #typora-sidebar .ty-search-item-line {
 }
 
 #typora-sidebar .file-tree-node .file-node-icon.fa-folder {
-  background-image: url('./ceylon/icons/dualtone-folder-closed.svg');
+  background-image: url('./ceylon/icons/cd-dualtone-folder-closed.svg');
   margin-top: 0.5rem;
 }
 
 /* Specific styling for the collapsed folder icon SVG */
 #typora-sidebar .file-tree-node.file-node-collapsed > .file-node-content > .file-node-icon.fa-folder {
-  background-image: url('./ceylon/icons/dualtone-folder-closed.svg');
+  background-image: url('./ceylon/icons/cd-dualtone-folder-closed.svg');
   margin-top: 0.5rem;
 }
 
 /* Specific styling for the expanded folder icon SVG */
 #typora-sidebar .file-tree-node.file-node-expanded > .file-node-content > .file-node-icon.fa-folder {
-  background-image: url('./ceylon/icons/dualtone-folder-open.svg');
+  background-image: url('./ceylon/icons/cd-dualtone-folder-open.svg');
   margin-top: 0.5rem;
 }
 
 /* Specific styling for the file icon SVG */
 #typora-sidebar .file-tree-node > .file-node-content > .file-node-icon.fa-file-text-o {
-  background-image: url('./ceylon/icons/dualtone-file.svg');
+  background-image: url('./ceylon/icons/cd-dualtone-file.svg');
   margin-top: 0.5rem;
 }
 
 /* Specific styling for the active file icon SVG */
 #typora-sidebar .file-tree-node.active > .file-node-content > .file-node-icon.fa-file-text-o {
-  background-image: url('./ceylon/icons/dualtone-file-selected.svg');
+  background-image: url('./ceylon/icons/cd-dualtone-file-selected.svg');
   margin-top: 0.5rem;
 }

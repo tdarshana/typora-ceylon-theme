@@ -4,6 +4,8 @@ The following will demonstrate how this theme looks like in a MacOs os in Retina
 
 This theme is build from [Typora Vue theme](https://github.com/blinkfox/typora-vue-theme) and some looks from Obsidean Editor.
 
+## Ceylon Light Theme
+
 ![img](./img/SCR-20240713-oluo.png)
 
 ![img](./img/SCR-20240713-olvw.png)
@@ -17,7 +19,13 @@ This theme is build from [Typora Vue theme](https://github.com/blinkfox/typora-v
 
 ![img](./img/SCR-20240713-olsr.png)
 
-You can install this by downloading this and extracting it to your Typora theme folder. You can follow the official guide [here](https://theme.typora.io/doc/Install-Theme/).
+---
+
+## Ceylon Dark Theme
+
+![img](./img/SCR-20240713-olsr.png)
+
+You can install this by downloading this repo or the release and extracting it to your Typora theme folder. You can follow the official guide [here](https://theme.typora.io/doc/Install-Theme/).
 
 You can support me here [![ko-fi](https://ko-fi.com/img/githubbutton_sm.svg)](https://ko-fi.com/G2G2UOIB9)
 
