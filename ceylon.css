@@ -489,6 +489,27 @@ h6::before {
   height: calc(100% - 4px);
 }
 
+@media print {
+  h1::before {
+    height: 33.63px;
+  }
+  h2::before {
+    height: 30.64px;
+  }
+  h3::before {
+    height: 28.92px;
+  }
+  h4::before {
+    height: 22.66px;
+  }
+  h5::before {
+    height: 21.39px;
+  }
+  h6::before {
+    height: 22.8px;
+  }
+}
+
 h1:hover::before,
 h1.md-focus::before {
   content: 'H1';
